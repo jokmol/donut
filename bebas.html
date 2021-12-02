@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Donut Lekker</title>
+        <link rel="icon" type="image/x-icon"  href="./images/favicon.ico">
+        </head>
+        <style>
+            .center {
+                text-align: center;
+                margin: auto;
+                width: 60%;
+                padding: 10px;
+                background: linear-gradient(to bottom, #f4acb6 0%, #e68f9f 100%);
+            }
+            body {
+                background: linear-gradient(to bottom, #f4acb6 0%, #e68f9f 100%);
+                
+            }
+            h1 {
+                font-family: garamond, serif;
+            }
+            #nav {
+                display: flex;
+                justify-content: space-evenly;
+            }
+            footer {
+                text-align: center;
+                padding: 3px;
+                background-color: white;
+            color: black;
+            }
+            img {
+            position: center;
+            left: 0px;
+            top: 0px;
+             z-index: 0;
+            }
+            .viewProducts{position: absolute;
+             left: 46%;
+             top: 700px;
+             z-index: 0;
+             font-size: 24px;
+             background-color: #e68f9f;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <h1 style="color:#eed877; font-size: 100px;">Donut</h1>
+            <div id="nav">
+                <a href="bebas.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="rotate90"><img src="./images/shutterstock_617135015-683x1024-604x700.jpg" width="500" height="600"></div>
+            <button class="viewProducts" type="submit" onclick="document.location='view product.html'">View Product </button>
+        </div>
+        <form action="test.html" method="get">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value=""><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value=""><br><br>
+          <input type="submit" value="Submit">
+        </form> 
+        <footer>
+            <p><a href="https://youtu.be/qXnYZ5TWrZw">Youtube</a></p>
+            <p><a href="kevin.marvin1111@gmail.com">kevin.marvin1111@gmail.com</a></p>
+            <p><a href=""></a></p>
+          </footer>
+          
+    </body>
+</html>
